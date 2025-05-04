@@ -1,35 +1,54 @@
-# Divasity
+# Sales and Investment Marketplace for Entrepreneurs (Divasity dApp)
 
-This dApp was created using `@iota/create-dapp` that sets up a basic React
-Client dApp using the following tools:
+A decentralized marketplace on **IOTA** connecting entrepreneurs with investors and customers, enabling crypto funding, sales, and transparent project tracking.
 
-- [React](https://react.dev/) as the UI framework
-- [TypeScript](https://www.typescriptlang.org/) for type checking
-- [Vite](https://vitejs.dev/) for build tooling
-- [Radix UI](https://www.radix-ui.com/) for pre-built UI components
-- [ESLint](https://eslint.org/)
-- [`@iota/dapp-kit`](https://docs.iota.org/ts-sdk/dapp-kit) for
-  connecting to wallets and loading data
-- [pnpm](https://pnpm.io/) for package management
+## Key Features
 
-## Starting your dApp
+### For Entrepreneurs
+- **List Projects/IP/Products**: Document ideas with descriptions, funding goals, and milestones
+- **Secure Funding**: Receive investments via IOTA smart contracts
+- **Progress Tracking**: Update milestones and showcase development
 
-To install dependencies you can run
+### For Investors
+- **Discovery Dashboard**: Filter and explore vetted opportunities
+- **Investment Tracking**: Monitor funded projects in real-time
+- **Escrow Wallet**: Secure transactions using IOTA smart contracts
 
+### For Customers
+- **Marketplace**: Purchase products/services with cryptocurrency
+- **Rating System**: Review and rate offerings
+- **Community Engagement**: Comment and share projects
+
+### Core Infrastructure
+- **AI Chatbot**: Platform-agnostic assistant for user guidance
+- **Multi-Function Wallet**: Escrow, crypto conversion, and KYC proof
+- **Cross-Platform**: Web and mobile accessible
+
+## Why IOTA?
+- **Feeless Transactions**: Zero/low-cost microtransactions
+- **Scalability**: Handles high transaction volumes
+- **Tangle Technology**: Quantum-resistant decentralized ledger
+- **Smart Contracts**: Transparent funding/sales automation
+
+## Technical Stack
+**Frontend**: React.js with TypeScript  
+**Smart Contracts**: IOTA ISCP (AssemblyScript)  
+**Backend**: Node.js API for Tangle interactions  
+**Storage**: IOTA Streams for decentralized docs  
+**AI**: NLP chatbot with project analysis  
+
+## Roadmap
+**Phase 1 (Q3 2024)**: Entrepreneur Hub (MVP)  
+- Project listing & basic smart contracts  
+- IOTA wallet integration  
+
+**Phase 2 (Q1 2025)**: Change Maker Expansion  
+- Customer marketplace  
+- Advanced analytics chatbot  
+
+## Installation
 ```bash
-pnpm install
-```
-
-To start your dApp in development mode run
-
-```bash
-pnpm dev
-```
-
-## Building
-
-To build your app for deployment you can run
-
-```bash
-pnpm build
-```
+git clone https://github.com/bobbytech1/divasity_preview.git
+cd divasity_preview
+npm install
+npm run dev
