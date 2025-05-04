@@ -17,7 +17,7 @@ export function TabBarInvestor() {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 border-t border-gray-400 pb-10 pt-2 bg-white">
+    <nav className="fixed bottom-0 left-0 right-0 border-t border-gray-400 pb-4 pt-2 bg-white">
       <ul className="flex justify-around">
         {tabs.map(({ key, icon, path }) => {
           const isActive = location.pathname === path;
