@@ -1,9 +1,9 @@
 import React from 'react';
-import { Home, ShoppingCart, Store } from 'lucide-react';
+import { Home, ShoppingCart, Store, Wallet } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 // Define the type for tabs
-type Tab = 'Dashboard' | 'Marketplace' | 'Vendors' ;
+type Tab = 'Dashboard' | 'Marketplace' | 'Vendors' | 'Wallet' ;
 
 export function TabBarShopper() {
   const location = useLocation();
@@ -12,6 +12,7 @@ export function TabBarShopper() {
     { key: 'Dashboard', icon: <Home size={26} />, path: '/dashboard/shopper' },
     { key: 'Marketplace', icon: <ShoppingCart size={26} />, path: '/marketplace/shopper' },
     { key: 'Vendors', icon: <Store size={24} />, path: '/shops/services' },
+    { key: 'Wallet', icon: <Wallet size={26} />, path: '/shopper/wallet' },
   ];
 
   return (

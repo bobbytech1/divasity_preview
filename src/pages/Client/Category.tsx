@@ -36,14 +36,31 @@ export function Category() {
     navigate(-1);
   };
 
-  // Navigate based on selected category, appending slug of name as URL param
   const handleContinue = () => {
     if (selectedId === null) return;
     const selectedCategory = categories.find((cat) => cat.id === selectedId);
     if (!selectedCategory) return;
+    
+    // Special case for Shopper
+    if (selectedCategory.name === "Shopper") {
+      navigate("/dashboard/shopper");
+      return;
+    }
+    
+    // Default routing for other categories
     const slug = selectedCategory.name.toLowerCase().replace(/\s+/g, "");
     navigate(`${selectedCategory.route}/${slug}`);
   };
+
+  // // Navigate based on selected category, appending slug of name as URL param
+  // const handleContinue = () => {
+  //   if (selectedId === null) return;
+  //   const selectedCategory = categories.find((cat) => cat.id === selectedId);
+  //   if (!selectedCategory) return;
+  //   const slug = selectedCategory.name.toLowerCase().replace(/\s+/g, "");
+  //   navigate(`${selectedCategory.route}/${slug}`);
+  //   navigate("/dashboard/shopper")
+  // };
 
   const settings = {
     dots: false,
