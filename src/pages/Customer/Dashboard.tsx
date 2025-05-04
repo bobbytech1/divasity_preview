@@ -36,7 +36,7 @@ function ProjectCard({ title, description, image, level }: { title: string; desc
 
 function RecommendationCard({ title, description, image }: { title: string; description: string; image: string }) {
   return (
-    <div className="bg-purple-100 rounded-xl h-[35vh] shadow-md  w-64 p-4 pr-4 flex flex-col items-center text-center">
+    <div className="bg-purple-100 rounded-xl py-15 shadow-md  w-64 p-4 pr-4 flex flex-col items-center text-center">
       <img src={image} alt={title} className="w-50 h-50 rounded-full object-cover pb-3" />
       <h4 className="font-semibold text-[16px]">{title}</h4>
       <p className="text-gray-500 text-sm">{description}</p>
