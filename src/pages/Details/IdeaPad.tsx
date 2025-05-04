@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ChevronLeft, MessageCircle } from 'lucide-react';
 import { Header } from '../../components/Header/Header';
 import { CustomButton } from '../../components/Button/CustomButton';

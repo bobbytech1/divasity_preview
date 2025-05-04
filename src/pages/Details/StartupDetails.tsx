@@ -1,5 +1,4 @@
 // Startup Details
-import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Header } from '../../components/Header/Header';
 import { ChevronLeft, Star, DollarSign, Tag, ShoppingBag, MessageCircle } from 'lucide-react';

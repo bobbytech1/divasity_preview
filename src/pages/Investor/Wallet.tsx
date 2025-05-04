@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { TabHeader } from '../../components/Header/TabHeader'
 import App from '../../App'
 

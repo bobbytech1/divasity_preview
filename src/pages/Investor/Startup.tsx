@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { TabHeader } from '../../components/Header/TabHeader';
 import { Bell, Star, DollarSign } from 'lucide-react';

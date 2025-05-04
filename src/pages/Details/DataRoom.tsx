@@ -1,7 +1,7 @@
 import { useState, ChangeEvent } from 'react';
 import { Header } from '../../components/Header/Header';
 import { ChevronLeft,  StickyNote,  Upload} from 'lucide-react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { DocumentPreview } from '../../components/Document/DocumentPreview';
 import { CustomButton } from '../../components/Button/CustomButton';
 

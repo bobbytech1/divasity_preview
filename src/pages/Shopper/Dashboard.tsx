@@ -1,4 +1,3 @@
-import React from 'react'
 import { TabHeader } from '../../components/Header/TabHeader'
 import { Bell, Bitcoin, ChevronRight, HandPlatter } from 'lucide-react'
 import { Link } from 'react-router-dom';
