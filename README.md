@@ -52,3 +52,36 @@ git clone https://github.com/bobbytech1/divasity_preview.git
 cd divasity_preview
 npm install
 npm run dev
+```
+## Testing the Application
+**First-Time Users**
+- Create Account
+
+- Click "Sign Up" on the homepage
+
+- Select your role (Entrepreneur/Investor/Customer)
+
+- Fill in required details (email, IOTA wallet address, etc.)
+
+
+**Dashboard Setup**
+- Entrepreneurs: Add project details & funding goals
+
+- Investors: Set investment preferences
+
+- Customers: Configure payment methods
+
+
+**Returning Users**
+- Login: Use your registered credentials
+
+- Wallet-connected users will auto-login with IOTA Identity
+
+- Dashboard Actions
+
+- Review ongoing projects/transactions
+
+Testing Tips
+Use IOTA testnet tokens for transactions
+
+Report bugs via email teamdivaity@gmail.com
